@@ -1,0 +1,68 @@
+{
+  "name": "@vrushalisoft/datatable",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "npm run build:lib && ng serve demo",
+    "build:lib": "ng build ng-datatable --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "publish:prod": "npm run build:lib && cd dist/ng-datatable && npm publish",
+    "publish:dev": "npm run build:lib && cd dist/ng-datatable && npm publish --tag dev"
+  },
+  "author": "vrushalifoundation@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrushalifoundation/vrushalisoft.git"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/animations": "~9.0.1",
+    "@angular/common": "~9.0.1",
+    "@angular/compiler": "~9.0.1",
+    "@angular/core": "~9.0.1",
+    "@angular/forms": "~9.0.1",
+    "@angular/platform-browser": "~9.0.1",
+    "@angular/platform-browser-dynamic": "~9.0.1",
+    "@angular/router": "~9.0.1",
+    "bootstrap": "^3.4.1",
+    "lodash": "^4.17.15",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.2",
+    "@angular-devkit/build-ng-packagr": "~0.900.2",
+    "@angular/cli": "~9.0.2",
+    "@angular/compiler-cli": "~9.0.1",
+    "@angular/language-service": "~9.0.1",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.1.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.0.0",
+    "protractor": "~5.4.3",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
+  },
+  "description": "It is a forked version of [ng-datatable](https://github.com/cmglez10/ng-datatable) updated to Angular 9. The build pipeline was changed to Angular CLI, which should lead to smaller bundles and ivy compatibility.",
+  "bugs": {
+    "url": "https://github.com/vrushalifoundation/vrushalisoft/issues"
+  },
+  "homepage": "https://github.com/vrushalifoundation/vrushalisoft#readme",
+  "main": "index.js",
+  "keywords": [
+    "datatable"
+  ]
+}

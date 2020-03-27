@@ -1,0 +1,35 @@
+{
+  "name": "@vrushalisoft/datatable",
+  "version": "1.0.0",
+  "description": "DataTable component for Angular framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrushalifoundation/vrushalisoft.git"
+  },
+  "keywords": [
+    "angular",
+    "angular9",
+    "angularcli",
+    "ivy",
+    "ng",
+    "ng2",
+    "ngx",
+    "table",
+    "pagination",
+    "sort",
+    "sorting"
+  ],
+  "author": "vrushalifoundation@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrushalifoundation/vrushalisoft/issues"
+  },
+  "homepage": "https://github.com/vrushalifoundation/vrushalisoft#readme",
+"private":false,
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "tslib": "^1.10.0",
+    "lodash": "^4.17.15"
+  }
+}
