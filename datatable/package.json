@@ -1,6 +1,6 @@
 {
   "name": "@vrushalisoft/datatable",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "npm run build:lib && ng serve demo",
